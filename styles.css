@@ -7,10 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    background-image: url("images/Group 1.png");
-    background-position: left -10px;
-    background-attachment: fixed;
-    background-size: cover;
     position: relative;
     min-height: 100%;
 }
@@ -65,15 +61,18 @@ body {
 
 .album-links-container {
     background-size: cover;
-    min-height: 100vh;
-    height: 100vh;
     align-self: right;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll;
     overflow-x: visible;
+    margin-top: 110px;
+    background-image: url("images/The\ Killers\ Homepage\ 1.png");
+    background-position: left 110px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .invsbl-link-elem {
